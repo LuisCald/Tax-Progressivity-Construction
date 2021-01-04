@@ -1,0 +1,16 @@
+To find the brackets for each group in:
+SOI_Marginal_Rates_by_AGI_and_FS
+
+look here (under the "Tax generated" section):
+
+2013 (pg. 24)
+https://www.irs.gov/pub/irs-soi/13insec4.pdf
+
+2014 (pg. 24)
+https://www.irs.gov/pub/irs-soi/14inexplanationofterms.pdf
+
+2015 (pg. 24)
+https://www.irs.gov/pub/irs-soi/15inexplanationofterms.pdf
+
+2016 (pg. 24)
+https://www.irs.gov/pub/irs-soi/16inexplanationofterms.pdf

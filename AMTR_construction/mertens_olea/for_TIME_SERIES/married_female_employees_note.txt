@@ -1,0 +1,33 @@
+For married employed women, the time series data comes from Saez, Piketty 2007 (As described in the read_me contained within the excel file). Problem is: their updated 2018 series in the excel file do not match the numbers in their paper. The paper has a printed table (B1) from 1917-1999. Before 1979, the numbers match. After, the updated 2018 series does not match the paper. Not sure why. Either way, I went to the source of the data as referred to in the table notes of B1. 
+
+online here 
+https://www2.census.gov/library/publications/1999/compendia/statab/119ed/tables/sec13.pdf?#
+The link has data on page 11 from 1980 until 1998. None of the numbers in the table found in the link above match the paper or the excel file updated 2018 series. I'm not sure what is being done to the numbers.
+
+
+I've elected to just take the numbers from the source.
+link for 90s, 2000s, 2010-2012: https://www.census.gov/library/publications/time-series/statistical_abstracts.html
+
+Collection in the above fashion ceased, so I have to use the BLS to extract married female employees.
+https://www.bls.gov/cps/demographics.htm#women
+ 
+2013 (Table 4)
+https://www.bls.gov/opub/reports/womens-databook/archive/womenlaborforce_2013.pdf
+
+2014 (Table 4)
+https://www.bls.gov/opub/reports/womens-databook/archive/women-in-the-labor-force-a-databook-2014.pdf
+
+2015 (Table 4)
+https://www.bls.gov/opub/reports/womens-databook/archive/women-in-the-labor-force-a-databook-2015.pdf
+
+2016 (Table 4)
+https://www.bls.gov/opub/reports/womens-databook/2016/pdf/home.pdf
+
+2017 (Table 4)
+https://www.bls.gov/opub/reports/womens-databook/2017/pdf/home.pdf
+
+2018 (Table 4)
+https://www.bls.gov/opub/reports/womens-databook/2018/pdf/home.pdf
+
+2019 (Table 4)
+https://www.bls.gov/opub/reports/womens-databook/2019/pdf/home.pdf

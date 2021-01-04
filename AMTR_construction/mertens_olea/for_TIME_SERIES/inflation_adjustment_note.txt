@@ -1,0 +1,40 @@
+Note on Inflation-adjustments:
+
+Numbers for 2013-2016 were collected from the following website:
+https://www.irs.gov/newsroom/inflation-adjusted-tax-items-by-tax-year
+
+Just find the corresponding year, click the first link, which should be 
+along the lines of "Various tax benefits increase due to inflation adjustments"
+
+To illustrate, go to 2011. Click the first link (should be this: https://www.irs.gov/newsroom/in-2011-many-tax-benefits-increase-slightly-due-to-inflation-adjustments)
+
+When reading this, you'll notice sentences like "is X, up Y from 2010". Just do 
+X/(X-Y). In our case, we have 3700/(3700-50), which is roughly 1.015.
+
+In particular, I look for this kind of sentence. 
+"For tax year Y, the maximum earned income tax credit (EITC) for low- and moderate- income workers and working families rises to A, up from B in Y-1." 
+
+Nevertheless, all numerical comparisons between years will roughly show the same proportional increase/decrease. So, doing
+A/B. 
+
+Where I got the data from:
+
+2018
+The tax year 2018 maximum Earned Income Credit amount is $6,444 for taxpayers filing jointly who have three or more qualifying children, up from a total of $6,318 for tax year 2017. The revenue procedure has a table providing maximum credit amounts for other categories, income thresholds and phase-outs.
+
+2017
+The tax year 2017 maximum Earned Income Credit amount is $6,318 for taxpayers filing jointly who have 3 or more qualifying children, up from a total of $6,269 for tax year 2016. The revenue procedure has a table providing maximum credit amounts for other categories, income thresholds and phase-outs.
+
+2016
+The tax year 2016 maximum Earned Income Credit amount is $6,269 for taxpayers filing jointly who have 3 or more qualifying children, up from a total of $6,242 for tax year 2015. The revenue procedure has a table providing maximum credit amounts for other categories, income thresholds and phase-outs.
+
+2015
+The 2015 maximum Earned Income Credit amount is $6,242 for taxpayers filing jointly who have 3 or more qualifying children, up from a total of $6,143 for tax year 2014. The revenue procedure has a table providing maximum credit amounts for other categories, income thresholds and phaseouts.
+
+2014
+The maximum Earned Income Credit amount is $6,143 for taxpayers filing jointly who have 3 or more qualifying children, up from a total of $6,044 for tax year 2013. The revenue procedure has a table providing maximum credit amounts for other categories, income thresholds and phaseouts
+
+2013 (from second link)
+The AGI limit for the saver’s credit (also known as the retirement savings contribution credit) for low- and moderate-income workers is $61,000 for married couples filing jointly, up from $60,000 in 2014; $45,750 for heads of household, up from $45,000; and $30,500 for married individuals filing separately and for singles, up from $30,000.
+
+
