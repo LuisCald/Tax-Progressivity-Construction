@@ -79,8 +79,7 @@ share_of_wages_Below_HI_data          = (WAGES_Below_OASDI(:,8:10)/1000000)./TOT
 share_of_entpr_Below_HI_data          = (WAGES_Below_OASDI(:,11:13)/1000000)./TOTENTPR(:,2:4);
 
 % Calculate Wage Income on Tax Returns
-cd 'C:\tax_progressivity\AMTR_construction\mertens_olea\original_files'
-cd 'C:\tax_progressivity\AMTR_construction\mertens_olea\auxiliary files'
+cd 'auxiliary files'
 load D
 DW = D;
 

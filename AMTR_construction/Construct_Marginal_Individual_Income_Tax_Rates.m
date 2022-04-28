@@ -20,10 +20,10 @@ data_DAGI            = xlsread('data/SOI_AGI_Distributions.xlsx','ALLYEARS'); % 
 data_MR              = xlsread('data/SOI_Marginal_Rates_by_AGI_and_FS.xlsx','ALLYEARS');
 
 TSERIES              = xlsread('data/TIME_SERIES_DATA.xlsx','SERIES');
-TSERIES = TSERIES(1:72,:);
+TSERIES              = TSERIES(1:72,:);
 YEARS                = (1946:2017)';
 
-cd 'C:\tax_progressivity\AMTR_construction\mertens_olea\output'
+cd 'output'
 % Step 2 Fit Distributions of Adjusted Gross Income to Available Data from
 % the IRS Statistics of Income
 FitDistributions  % This looks into data_DAGI
@@ -103,8 +103,9 @@ AMIITR_10to5 = (AMIITR1(:,5)-s5./s10.*AMIITR1(:,4)).*s10./(s10-s5);  %AMIITR1(:,
 AMIITR_b99   = (AMIITR1(:,2)-s1./1.*AMIITR1(:,3)).*1./(1-s1);
 AMIITR_b90   = (AMIITR1(:,2)-s10./1.*AMIITR1(:,5)).*1./(1-s10);
 
-col_header = {'AMTR_BR','AMTR_S','AMTR_S_top1','AMTR_S_top5','AMTR_S_top10','AMTR_S_5to1','AMTR_S_10to5','AMTR_S_b99','AMTR_S_b90'}
-AMIITR=[AMIITR2(:,2:end) AMIITR1(:,2:end) AMIITR_5to1 AMIITR_10to5 AMIITR_b99 AMIITR_b90];
+cd 'C:\tax_progressivity\AMTR_construction\mertens_olea\auxiliary files'
+col_header = {'Year' 'AMTR_BR','AMTR_S','AMTR_S_top1','AMTR_S_top5','AMTR_S_top10','AMTR_S_5to1','AMTR_S_10to5','AMTR_S_b99','AMTR_S_b90'}
+AMIITR=[YEARS AMIITR2(:,2:end) AMIITR1(:,2:end) AMIITR_5to1 AMIITR_10to5 AMIITR_b99 AMIITR_b90];
 AMIITR=num2cell(AMIITR);
 output_matrix = [col_header; AMIITR]
 xlswrite('AMIITRs',output_matrix);
